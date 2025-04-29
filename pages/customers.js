@@ -103,8 +103,6 @@ async editAndUpdateRowByEmail(email) {
     await updateButton.waitFor({ timeout: 5000 });
   
     // Optionally, update a field before clicking Update
-    // await this.page.fill('input[name="email"]', 'newemail@example.com');
-  
     // 4. Click the Update button
     await updateButton.click();
   }  
